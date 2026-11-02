@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="1024" height="1024">
+  <defs>
+    <radialGradient id="qdsMidnightEnamel" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="45%" stop-color="#0f172a" />
+      <stop offset="85%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#020408" />
+    </radialGradient>
+
+    <linearGradient id="qdsRoyalGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a" />
+      <stop offset="25%" stop-color="#f59e0b" />
+      <stop offset="50%" stop-color="#fbbf24" />
+      <stop offset="75%" stop-color="#b45309" />
+      <stop offset="100%" stop-color="#78350f" />
+    </linearGradient>
+
+    <linearGradient id="qdsGoldBright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fffbeb" />
+      <stop offset="50%" stop-color="#fcd34d" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <linearGradient id="qdsBrickCitadel" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ca8a04" />
+      <stop offset="30%" stop-color="#92400e" />
+      <stop offset="70%" stop-color="#78350f" />
+      <stop offset="100%" stop-color="#451a03" />
+    </linearGradient>
+
+    <radialGradient id="qdsArchShadow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#020617" />
+      <stop offset="100%" stop-color="#000000" />
+    </radialGradient>
+
+    <filter id="qdsGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="3" stdDeviation="3" flood-color="#f59e0b" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Outer Rim Frame -->
+  <circle cx="200" cy="200" r="194" fill="#451a03" stroke="url(#qdsRoyalGold)" stroke-width="6" />
+
+  <!-- 36 Classical Sovereign Golden Pearls / Coin Beads -->
+  <g fill="url(#qdsGoldBright)">
+    <circle cx="382" cy="200" r="4" /><circle cx="379" cy="231" r="4" /><circle cx="370" cy="262" r="4" />
+    <circle cx="355" cy="291" r="4" /><circle cx="334" cy="316" r="4" /><circle cx="309" cy="338" r="4" />
+    <circle cx="280" cy="354" r="4" /><circle cx="248" cy="364" r="4" /><circle cx="216" cy="368" r="4" />
+    <circle cx="184" cy="368" r="4" /><circle cx="152" cy="364" r="4" /><circle cx="120" cy="354" r="4" />
+    <circle cx="91" cy="338" r="4" /><circle cx="66" cy="316" r="4" /><circle cx="45" cy="291" r="4" />
+    <circle cx="30" cy="262" r="4" /><circle cx="21" cy="231" r="4" /><circle cx="18" cy="200" r="4" />
+    <circle cx="21" cy="169" r="4" /><circle cx="30" cy="138" r="4" /><circle cx="45" cy="109" r="4" />
+    <circle cx="66" cy="84" r="4" /><circle cx="91" cy="62" r="4" /><circle cx="120" cy="46" r="4" />
+    <circle cx="152" cy="36" r="4" /><circle cx="184" cy="32" r="4" /><circle cx="216" cy="32" r="4" />
+    <circle cx="248" cy="36" r="4" /><circle cx="280" cy="46" r="4" /><circle cx="309" cy="62" r="4" />
+    <circle cx="334" cy="84" r="4" /><circle cx="355" cy="109" r="4" /><circle cx="370" cy="138" r="4" />
+    <circle cx="379" cy="169" r="4" /><circle cx="382" cy="200" r="4" /><circle cx="357" cy="91" r="4" />
+  </g>
+
+  <!-- Inner Rings & Guilloche Pattern -->
+  <circle cx="200" cy="200" r="174" stroke="url(#qdsRoyalGold)" stroke-width="5" fill="none" />
+  <circle cx="200" cy="200" r="166" stroke="#f59e0b" stroke-width="1.8" stroke-dasharray="6 4" opacity="0.8" fill="none" />
+  
+  <!-- Royal Enamel Shield Ground -->
+  <circle cx="200" cy="200" r="162" fill="url(#qdsMidnightEnamel)" />
+
+  <!-- Celestial Micro Stars in Sky Field -->
+  <g fill="#fef08a" opacity="0.65">
+    <circle cx="116" cy="92" r="1.8" />
+    <circle cx="284" cy="92" r="1.8" />
+    <circle cx="96" cy="124" r="1.5" />
+    <circle cx="304" cy="124" r="1.5" />
+    <circle cx="144" cy="76" r="1.6" />
+    <circle cx="256" cy="76" r="1.6" />
+  </g>
+
+  <!-- Apex Radiant Eight-pointed Star of Didar -->
+  <g filter="url(#qdsGlow)">
+    <polygon points="200,42 206,56 222,62 206,68 200,82 194,68 178,62 194,56" fill="url(#qdsGoldBright)" />
+    <polygon points="200,50 208,54 212,62 208,70 200,74 192,70 188,62 192,54" fill="#ffffff" opacity="0.9" />
+    <circle cx="200" cy="62" r="3" fill="#fef08a" />
+  </g>
+
+  <!-- Historic Fortress of Sardar Didar Singh (18th Century) -->
+  <g>
+    <!-- Foundation Wall -->
+    <path d="M 88 270 L 94 196 L 306 196 L 312 270 Z" fill="url(#qdsBrickCitadel)" stroke="#d97706" stroke-width="1.6" />
+    
+    <!-- Brick Courses -->
+    <line x1="94" y1="212" x2="306" y2="212" stroke="#fbbf24" stroke-width="1" opacity="0.4" />
+    <line x1="92" y1="228" x2="308" y2="228" stroke="#fbbf24" stroke-width="1" opacity="0.4" />
+    <line x1="90" y1="244" x2="310" y2="244" stroke="#fbbf24" stroke-width="1" opacity="0.4" />
+    <line x1="89" y1="260" x2="311" y2="260" stroke="#fbbf24" stroke-width="1" opacity="0.4" />
+
+    <!-- Central Keep Ramparts with Battlements (Kanguras) -->
+    <path d="M 136 196 L 136 152 L 146 152 L 146 160 L 160 160 L 160 152 L 174 152 L 174 160 L 188 160 L 188 152 L 212 152 L 212 160 L 226 160 L 226 152 L 240 152 L 240 160 L 254 160 L 254 152 L 264 152 L 264 196 Z" fill="url(#qdsBrickCitadel)" stroke="url(#qdsRoyalGold)" stroke-width="2" />
+
+    <!-- West Watchtower Bastion (Burj) -->
+    <g>
+      <path d="M 84 270 L 90 176 L 128 176 L 134 270 Z" fill="url(#qdsBrickCitadel)" stroke="url(#qdsRoyalGold)" stroke-width="1.8" />
+      <rect x="84" y="170" width="50" height="7" rx="2" fill="url(#qdsGoldBright)" stroke="#78350f" stroke-width="1" />
+      <path d="M 88 170 C 88 144, 130 144, 130 170 Z" fill="url(#qdsRoyalGold)" stroke="#d97706" stroke-width="1.6" />
+      <line x1="109" y1="144" x2="109" y2="130" stroke="url(#qdsGoldBright)" stroke-width="2.4" stroke-linecap="round" />
+      <circle cx="109" cy="130" r="2.6" fill="#fef08a" />
+      <path d="M 104 208 C 104 198, 114 198, 114 208 L 114 228 L 104 228 Z" fill="#030712" stroke="#f59e0b" stroke-width="1.2" />
+    </g>
+
+    <!-- East Watchtower Bastion (Burj) -->
+    <g>
+      <path d="M 266 270 L 272 176 L 310 176 L 316 270 Z" fill="url(#qdsBrickCitadel)" stroke="url(#qdsRoyalGold)" stroke-width="1.8" />
+      <rect x="266" y="170" width="50" height="7" rx="2" fill="url(#qdsGoldBright)" stroke="#78350f" stroke-width="1" />
+      <path d="M 270 170 C 270 144, 312 144, 312 170 Z" fill="url(#qdsRoyalGold)" stroke="#d97706" stroke-width="1.6" />
+      <line x1="291" y1="144" x2="291" y2="130" stroke="url(#qdsGoldBright)" stroke-width="2.4" stroke-linecap="round" />
+      <circle cx="291" cy="130" r="2.6" fill="#fef08a" />
+      <path d="M 286 208 C 286 198, 296 198, 296 208 L 296 228 L 286 228 Z" fill="#030712" stroke="#f59e0b" stroke-width="1.2" />
+    </g>
+
+    <!-- Grand Citadel Gateway Portal (Darwaza-e-Qila) -->
+    <path d="M 160 270 L 160 216 C 160 194, 176 184, 200 184 C 224 184, 240 194, 240 216 L 240 270 Z" fill="#78350f" stroke="url(#qdsGoldBright)" stroke-width="3" />
+    <path d="M 168 270 L 168 220 C 168 200, 182 192, 200 192 C 218 192, 232 200, 232 220 L 232 270 Z" fill="url(#qdsArchShadow)" stroke="#f59e0b" stroke-width="1.8" />
+    <line x1="200" y1="194" x2="200" y2="270" stroke="#d97706" stroke-width="2.4" />
+    <circle cx="184" cy="232" r="2" fill="#fbbf24" /><circle cx="184" cy="252" r="2" fill="#fbbf24" />
+    <circle cx="216" cy="232" r="2" fill="#fbbf24" /><circle cx="216" cy="252" r="2" fill="#fbbf24" />
+
+    <circle cx="200" cy="170" r="9" fill="#0f172a" stroke="url(#qdsGoldBright)" stroke-width="2" />
+    <path d="M 196 168 C 196 164, 204 164, 204 168 C 204 172, 196 174, 196 176 L 204 176" stroke="#fef08a" stroke-width="1.8" stroke-linecap="round" />
+  </g>
+
+  <!-- Golden Basmati Rice Sheaves (Left & Right) -->
+  <g>
+    <!-- Left Stalk -->
+    <path d="M 64 288 C 40 230, 46 150, 84 92" stroke="url(#qdsRoyalGold)" stroke-width="4.8" stroke-linecap="round" fill="none" />
+    <g fill="url(#qdsGoldBright)" stroke="#b45309" stroke-width="0.8">
+      <ellipse cx="50" cy="250" rx="10" ry="4.4" transform="rotate(-35 50 250)" />
+      <ellipse cx="42" cy="216" rx="10.4" ry="4.4" transform="rotate(-25 42 216)" />
+      <ellipse cx="42" cy="182" rx="10.4" ry="4.4" transform="rotate(-15 42 182)" />
+      <ellipse cx="48" cy="148" rx="10" ry="4.4" transform="rotate(-5 48 148)" />
+      <ellipse cx="60" cy="116" rx="9.6" ry="4.2" transform="rotate(10 60 116)" />
+      <ellipse cx="76" cy="92" rx="8.4" ry="4" transform="rotate(25 76 92)" />
+    </g>
+    <!-- Left Awn Bristles -->
+    <g stroke="#f59e0b" stroke-width="1.2">
+      <line x1="42" y1="246" x2="32" y2="240" />
+      <line x1="34" y1="212" x2="24" y2="206" />
+      <line x1="34" y1="178" x2="22" y2="172" />
+      <line x1="40" y1="144" x2="30" y2="136" />
+      <line x1="54" y1="110" x2="44" y2="100" />
+      <line x1="72" y1="84" x2="66" y2="72" />
+    </g>
+
+    <!-- Right Stalk -->
+    <path d="M 336 288 C 360 230, 354 150, 316 92" stroke="url(#qdsRoyalGold)" stroke-width="4.8" stroke-linecap="round" fill="none" />
+    <g fill="url(#qdsGoldBright)" stroke="#b45309" stroke-width="0.8">
+      <ellipse cx="350" cy="250" rx="10" ry="4.4" transform="rotate(35 350 250)" />
+      <ellipse cx="358" cy="216" rx="10.4" ry="4.4" transform="rotate(25 358 216)" />
+      <ellipse cx="358" cy="182" rx="10.4" ry="4.4" transform="rotate(15 358 182)" />
+      <ellipse cx="352" cy="148" rx="10" ry="4.4" transform="rotate(5 352 148)" />
+      <ellipse cx="340" cy="116" rx="9.6" ry="4.2" transform="rotate(-10 340 116)" />
+      <ellipse cx="324" cy="92" rx="8.4" ry="4" transform="rotate(-25 324 92)" />
+    </g>
+    <!-- Right Awn Bristles -->
+    <g stroke="#f59e0b" stroke-width="1.2">
+      <line x1="358" y1="246" x2="368" y2="240" />
+      <line x1="366" y1="212" x2="376" y2="206" />
+      <line x1="366" y1="178" x2="378" y2="172" />
+      <line x1="360" y1="144" x2="370" y2="136" />
+      <line x1="346" y1="110" x2="356" y2="100" />
+      <line x1="328" y1="84" x2="334" y2="72" />
+    </g>
+  </g>
+
+  <!-- Classical Heraldic Ribbon Scroll Banner at Base -->
+  <g filter="url(#qdsGlow)">
+    <!-- Swallowtail Ribbon Ends -->
+    <polygon points="36,324 72,292 72,336 36,344 52,328" fill="#92400e" stroke="#78350f" stroke-width="1.2" />
+    <polygon points="364,324 328,292 328,336 364,344 348,328" fill="#92400e" stroke="#78350f" stroke-width="1.2" />
+    <polygon points="68,304 96,304 96,324 68,332" fill="#78350f" />
+    <polygon points="332,304 304,304 304,324 332,332" fill="#78350f" />
+
+    <!-- Main Front Banner Arc -->
+    <path d="M 64 316 Q 200 356 336 316 L 336 286 Q 200 324 64 286 Z" fill="url(#qdsRoyalGold)" stroke="#581c87" stroke-width="1" />
+    <path d="M 64 286 Q 200 324 336 286" stroke="#fffbeb" stroke-width="2.4" fill="none" />
+    <path d="M 64 316 Q 200 356 336 316" stroke="#78350f" stroke-width="2.4" fill="none" />
+  </g>
+
+  <!-- Banner Text Inscription -->
+  <text x="200" y="314" text-anchor="middle" fill="#2e1065" font-size="17" font-family="Georgia, 'Times New Roman', serif" font-weight="900" letter-spacing="2.4">
+    ESTD. 18TH CENTURY
+  </text>
+
+  <!-- Arch Inscription for Qila Didar Singh in Urdu -->
+  <path id="qdsUrduArcLarge" d="M 80 152 A 136 136 0 0 1 320 152" fill="none" />
+  <text fill="url(#qdsGoldBright)" font-size="22" font-weight="bold" font-family="'Noto Nastaliq Urdu', 'Gulzar', 'Noto Sans Arabic', serif">
+    <textPath href="#qdsUrduArcLarge" startOffset="50%" text-anchor="middle">
+      قلعہ دیدار سنگھ
+    </textPath>
+  </text>
+
+  <!-- Rosette Medal at Center Bottom -->
+  <circle cx="200" cy="344" r="7" fill="url(#qdsGoldBright)" stroke="#78350f" stroke-width="1.6" />
+  <circle cx="200" cy="344" r="3" fill="#fef08a" />
+</svg>
