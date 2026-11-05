@@ -2,7 +2,7 @@
   "id": "/",
   "name": "Ahwale Gujranwala | احوالِ گوجرانوالہ",
   "short_name": "Ahwale Gujranwala",
-  "description": "Comprehensive community portal for whole Gujranwala: local news, grain mandi rates, marketplace, jobs, riders, and skilled services.",
+  "description": "Community portal for whole Gujranwala: grain mandi rates, marketplace, jobs, riders, and skilled services across Gujranwala.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
@@ -11,7 +11,7 @@
   "dir": "rtl",
   "background_color": "#0f172a",
   "theme_color": "#1e3a8a",
-  "categories": ["news", "business", "shopping", "lifestyle"],
+  "categories": ["business", "shopping", "lifestyle"],
   "icons": [
     {
       "src": "/icon-192.png",
