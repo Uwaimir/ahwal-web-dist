@@ -1,3 +1,6 @@
+# Ahwal-e-Gujranwala Production Security & Routing Configuration
+Options -Indexes
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -13,12 +16,28 @@
   RewriteRule ^ index.html [L]
 </IfModule>
 
-# Enable CORS for fonts and assets
+# Security Headers & CORS
 <IfModule mod_headers.c>
   Header set Access-Control-Allow-Origin "*"
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "geolocation=(self), camera=(self), microphone=()"
 </IfModule>
 
-# Enable compression
+# Block access to hidden files and version control
+<FilesMatch "^\.">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order Allow,Deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+
+# Enable GZIP compression
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json
 </IfModule>
